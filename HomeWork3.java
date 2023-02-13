@@ -9,7 +9,7 @@ public class HomeWork3 {
         System.out.println("Введите число:");
         int a = sc.nextInt();
         sc.close();
-        boolean b = (a <= 0);
+        boolean b = (a < 0);
         System.out.println(b);
     }
 }
